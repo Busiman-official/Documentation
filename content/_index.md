@@ -3,7 +3,7 @@ title: My Site
 toc: false
 ---
 
-This is the landing page for busiman
+This is the landing page for busiman business management
 
 
 ## Explore
