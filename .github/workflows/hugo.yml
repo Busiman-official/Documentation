@@ -36,16 +36,14 @@ jobs:
           TMPDIR="/home/runner/work/_temp"
           mkdir -p "$TMPDIR"
           echo "Will try to download Hugo v${VERSION} (extended if available)"
-
-          # list of candidate filenames to try (order matters)
+      
           CANDIDATES=(
             "hugo_extended_${VERSION}_${ARCH}.deb"
             "hugo_extended_${VERSION}_${ARCH}.tar.gz"
             "hugo_${VERSION}_${ARCH}.tar.gz"
             "hugo_${VERSION}_${ARCH}.deb"
-            "hugo_extended_${VERSION}_${ARCH}.tar.gz"  # re-check common naming
           )
-
+      
           success=0
           for file in "${CANDIDATES[@]}"; do
             url="https://github.com/gohugoio/hugo/releases/download/v${VERSION}/${file}"
@@ -54,39 +52,41 @@ jobs:
               echo "Downloaded ${file}"
               case "${file##*.}" in
                 deb)
+                  # install .deb as root
                   sudo dpkg -i "${TMPDIR}/${file}" || sudo apt-get install -f -y
+                  # ensure binary is executable (use sudo because owner is root)
+                  if [ -f "/usr/local/bin/hugo" ]; then
+                    sudo chmod +x /usr/local/bin/hugo || true
+                  fi
                   ;;
                 gz)
                   tar -xzf "${TMPDIR}/${file}" -C "${TMPDIR}"
-                  # binary inside tar sometimes named 'hugo' or 'hugo_extended'; move whichever exists
-                  if [ -f "${TMPDIR}/hugo" ]; then
-                    sudo mv "${TMPDIR}/hugo" /usr/local/bin/hugo
-                  elif [ -f "${TMPDIR}/hugo_extended" ]; then
-                    sudo mv "${TMPDIR}/hugo_extended" /usr/local/bin/hugo
+                  # find the hugo binary inside extracted files
+                  found=$(find "${TMPDIR}" -maxdepth 2 -type f -name 'hugo*' -perm /u+x | head -n1 || true)
+                  if [ -n "$found" ]; then
+                    # move with sudo and make executable
+                    sudo mv "$found" /usr/local/bin/hugo
+                    sudo chmod +x /usr/local/bin/hugo
                   else
-                    # try to find executable inside extracted folder
-                    found=$(find "${TMPDIR}" -maxdepth 2 -type f -name 'hugo*' -perm /u+x | head -n1 || true)
-                    if [ -n "$found" ]; then
-                      sudo mv "$found" /usr/local/bin/hugo
-                    else
-                      echo "Couldn't find hugo binary inside ${file}"
-                      exit 1
-                    fi
+                    echo "Couldn't find hugo binary inside ${file}"
+                    exit 1
                   fi
                   ;;
-                *)
-                  echo "Unknown file type: ${file}"
-                  ;;
               esac
-              chmod +x /usr/local/bin/hugo
-              hugo version
-              success=1
-              break
+      
+              # verify
+              if command -v hugo >/dev/null 2>&1; then
+                hugo version
+                success=1
+                break
+              else
+                echo "hugo not in PATH after install — continuing to next candidate"
+              fi
             else
               echo "Not found: $url"
             fi
           done
-
+      
           if [ "$success" -ne 1 ]; then
             echo "All download attempts failed for Hugo v${VERSION}. Exiting with error."
             exit 1
