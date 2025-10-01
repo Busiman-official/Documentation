@@ -33,7 +33,7 @@ jobs:
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
-          github-pages: true
+
 
       # 3. Setup Node.js
       - name: Setup Node.js
