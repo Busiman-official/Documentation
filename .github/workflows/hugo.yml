@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  HUGO_VERSION: "latest"
+  HUGO_VERSION: "0.156.0"
 
 jobs:
   build:
@@ -27,13 +27,70 @@ jobs:
         with:
           submodules: recursive
 
-      # 2. Setup Hugo (extended edition)
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: ${{ env.HUGO_VERSION }}
-          extended: true
+      # 2. Install Hugo (robust fallback: tries several asset names)
+      - name: Install Hugo (robust)
+        run: |
+          set -euo pipefail
+          VERSION="${{ env.HUGO_VERSION }}"
+          ARCH="linux-amd64"
+          TMPDIR="/home/runner/work/_temp"
+          mkdir -p "$TMPDIR"
+          echo "Will try to download Hugo v${VERSION} (extended if available)"
 
+          # list of candidate filenames to try (order matters)
+          CANDIDATES=(
+            "hugo_extended_${VERSION}_${ARCH}.deb"
+            "hugo_extended_${VERSION}_${ARCH}.tar.gz"
+            "hugo_${VERSION}_${ARCH}.tar.gz"
+            "hugo_${VERSION}_${ARCH}.deb"
+            "hugo_extended_${VERSION}_${ARCH}.tar.gz"  # re-check common naming
+          )
+
+          success=0
+          for file in "${CANDIDATES[@]}"; do
+            url="https://github.com/gohugoio/hugo/releases/download/v${VERSION}/${file}"
+            echo "Trying $url"
+            if curl -sS -f -L -o "${TMPDIR}/${file}" "$url"; then
+              echo "Downloaded ${file}"
+              case "${file##*.}" in
+                deb)
+                  sudo dpkg -i "${TMPDIR}/${file}" || sudo apt-get install -f -y
+                  ;;
+                gz)
+                  tar -xzf "${TMPDIR}/${file}" -C "${TMPDIR}"
+                  # binary inside tar sometimes named 'hugo' or 'hugo_extended'; move whichever exists
+                  if [ -f "${TMPDIR}/hugo" ]; then
+                    sudo mv "${TMPDIR}/hugo" /usr/local/bin/hugo
+                  elif [ -f "${TMPDIR}/hugo_extended" ]; then
+                    sudo mv "${TMPDIR}/hugo_extended" /usr/local/bin/hugo
+                  else
+                    # try to find executable inside extracted folder
+                    found=$(find "${TMPDIR}" -maxdepth 2 -type f -name 'hugo*' -perm /u+x | head -n1 || true)
+                    if [ -n "$found" ]; then
+                      sudo mv "$found" /usr/local/bin/hugo
+                    else
+                      echo "Couldn't find hugo binary inside ${file}"
+                      exit 1
+                    fi
+                  fi
+                  ;;
+                *)
+                  echo "Unknown file type: ${file}"
+                  ;;
+              esac
+              chmod +x /usr/local/bin/hugo
+              hugo version
+              success=1
+              break
+            else
+              echo "Not found: $url"
+            fi
+          done
+
+          if [ "$success" -ne 1 ]; then
+            echo "All download attempts failed for Hugo v${VERSION}. Exiting with error."
+            exit 1
+          fi
 
       # 3. Setup Node.js
       - name: Setup Node.js
@@ -52,7 +109,12 @@ jobs:
 
       # 6. Install Node.js dependencies (if package-lock.json exists)
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: |
+          if [[ -f package-lock.json || -f npm-shrinkwrap.json ]]; then
+            npm ci
+          else
+            echo "No package-lock.json found — skipping npm ci"
+          fi
 
       # 7. Build Hugo site
       - name: Build Hugo site
