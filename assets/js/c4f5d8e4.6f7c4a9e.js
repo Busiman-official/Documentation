@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktemp_folder=self.webpackChunktemp_folder||[]).push([[634],{192:(e,r,t)=>{t.r(r),t.d(r,{default:()=>n});var u=t(6347),f=(t(6540),t(4848));function n(){return(0,f.jsx)(u.rd,{to:"/intro"})}}}]);
