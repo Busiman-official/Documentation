@@ -23,8 +23,6 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           lastVersion: '1.0',
           onlyIncludeVersions: ['1.0'],
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -46,7 +44,7 @@ const config: Config = {
       items: [
         { href:"https://busiman.in", label: 'Go to Busiman', position: 'right' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Busiman-official/documentation',
           label: 'Contribute',
           position: 'right',
         },
