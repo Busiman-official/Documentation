@@ -1,41 +1,72 @@
-# Website
+# Busiman Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Official documentation site for Busiman — an all-in-one business management platform (https://busiman.in).
 
-## Installation
+This repository contains the Docusaurus-based documentation that powers https://docs.busiman.in.
 
-```bash
-yarn
-```
+Quick highlights
+- Written with Docusaurus v3
+- Served from the custom domain: `docs.busiman.in` (CNAME is included)
+- License: MIT — see `LICENSE`
 
-## Local Development
+Requirements
+- Node.js >= 20
+- npm (or yarn)
 
-```bash
-yarn start
-```
+Getting started (local)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+1. Install dependencies
 
 ```bash
-USE_SSH=true yarn deploy
+npm install
 ```
 
-Not using SSH:
+2. Start the local development server (live reload)
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+npm run start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+3. Build the site
+
+```bash
+npm run build
+```
+
+4. Serve the built site locally to test production output
+
+```bash
+npm run serve
+# open http://localhost:3000/ and test nested routes (e.g. /intro)
+```
+
+Deploying
+- The repository includes an npm deploy script that pushes the built site to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+- If your deployment requires SSH or a specific GIT user, set the environment vars the same way the script expects (see `package.json`).
+
+Custom domain
+- This project uses `docs.busiman.in`. A `static/CNAME` file is present so GitHub Pages will keep the custom domain after deploy.
+- Ensure your DNS has a CNAME record for `docs` pointing to `Busiman-official.github.io` (or the correct GitHub Pages target) and that GitHub Pages shows the custom domain as configured.
+
+Contributing
+- See `CONTRIBUTING.md` for how to contribute, `CODE_OF_CONDUCT.md` for community guidelines, and `.github/ISSUE_TEMPLATE/` for issue templates.
+- Typical flow:
+	1. Fork and branch
+	2. Make changes and run `npm run build` to validate
+	3. Open a pull request describing the change and link any related issues
+
+Security & reporting
+- For security issues, see `SECURITY.md` and report privately as described there.
+
+License
+- This project is distributed under the MIT license. See `LICENSE`.
+
+Contact
+- For general inquiries or maintainers, email: hello@busiman.in (replace with preferred contact).
+
+Thank you for helping improve Busiman documentation — contributions are welcome and appreciated.

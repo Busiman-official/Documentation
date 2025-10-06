@@ -9,7 +9,8 @@ const config: Config = {
   future: {
     v4: true,
   },
-  url: 'https://Busiman-official.github.io',
+  // Use the custom domain as the site URL and serve from the domain root
+  url: 'https://docs.busiman.in',
   baseUrl: '/',
   organizationName: 'Busiman-official',
   projectName: 'documentation',
