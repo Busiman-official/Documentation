@@ -1,0 +1,210 @@
+---
+sidebar_position: 2
+---
+
+# 🚀 Onboarding Guide
+
+Welcome to Busiman! This comprehensive guide walks you through the complete onboarding process, from creating your account to setting up your first company and branches.
+
+## 📝 Account Registration
+
+### 🔐 Creating Your Account
+
+1. **🌐 Visit the Registration Page**
+   - Navigate to [Busiman Registration](https://busiman.in/auth/register)
+
+   <!-- ![Registration Page Layout](registration-page.png) -->
+
+   _Image: Busiman registration page_
+
+2. **🔵 Google OAuth Registration**
+   - Click "Sign Up with Google" for registration
+   - Grant permissions to access your Google account
+   - Your account will be created using your Google profile information
+   - You'll be automatically logged in and redirected to the dashboard
+
+## 🔑 Account Login
+
+### 🚪 Login Process
+
+1. **🌐 Access the Login Page**
+   - Visit [Busiman Login](https://busiman.in/auth/login)
+
+   <!-- ![Login Page](login-page.png) -->
+
+   _Image: Busiman login page_
+
+2. **🔵 Google OAuth Login**
+   - Click "Sign In with Google" for quick access
+   - Select your Google account
+   - You'll be redirected to the dashboard upon successful authentication
+
+## 🏢 Company Setup
+
+After successful login, you'll be redirected to the main dashboard. To set up your company, navigate to the company creation page. This is a crucial step that establishes your business structure in Busiman.
+
+### 📋 Step 1: Company Information
+
+1. **🧭 Navigate to Company Creation**
+   - After login, you'll be redirected to the main dashboard
+   - To create your company, visit: [Company Creation](https://busiman.in/dashboard/company/create-new)
+
+   <!-- ![Company Creation Step 1](company-creation-step1.png) -->
+
+   _Image: Company information form_
+
+2. **📝 Enter Basic Company Details**
+   - **🏷️ Company Name**: Your business's legal or operating name
+   - **👥 Company Size**: Select from predefined ranges:
+     - 1-9 employees (small business)
+     - 10-99 employees (medium business)
+     - 100-999 employees (large business)
+     - > 1000 employees (enterprise)
+
+   <!-- ![Company Size Selection](company-size-selection.png) -->
+
+   _Image: Company size selection with icons_
+
+3. **🏭 Select Industry**
+   - Choose from predefined industries or enter a custom one:
+     - Technology, Manufacturing, Retail, Healthcare
+     - Finance, Education, Hospitality, Construction
+     - Automotive, Agriculture, Consulting, Logistics
+     - Real Estate, Entertainment, Food & Beverage
+
+4. **🏪 Set Number of Branches**
+   - Select how many branches/locations your business operates
+   - You can choose from 1 to 4 branches initially
+   - Additional branches can be added later
+
+   <!-- ![Branch Count Selection](branch-count-selection.png) -->
+
+   _Image: Branch count selection buttons_
+
+5. **➡️ Continue to Branch Setup**
+   - Click "Continue to Branches" to proceed
+   - This validates your company information before moving forward
+
+### 🏗️ Step 2: Branch Configuration
+
+1. **📊 Branch Setup Overview**
+   - You'll see tabs for each branch you specified
+
+   <!-- ![Branch Configuration](branch-configuration.png) -->
+
+   _Image: Branch configuration with tabbed interface_
+
+2. **⚙️ Configure Each Branch**
+   For each branch, provide:
+   - **🏷️ Branch Name**: A unique identifier (e.g., "Main Office", "Downtown Branch")
+   - **📍 Location**: Physical address or location description
+   - **👥 Departments**: Select relevant departments from the dropdown:
+     - Select multiple departments that operate in this branch
+     - Common options include: Sales, Marketing, HR, Finance, Operations, IT, etc.
+
+   <!-- ![Branch Details Form](branch-details-form.png) -->
+
+   _Image: Branch details form with departments selection_
+
+3. **👨‍💼 Branch Manager (Optional)**
+   - **👤 Manager Name**: Full name of the branch manager
+   - **💼 Position**: Job title (e.g., "Branch Manager", "Store Manager")
+   - **📧 Email**: Manager's email address
+   - **📱 Phone**: Manager's contact number
+   - **🔒 Password**: System-generated or custom password
+
+   <!-- ![Manager Details Section](manager-details.png) -->
+
+   _Image: Optional branch manager configuration_
+
+4. **🔐 Password Generation**
+   - Click "Generate" to create a secure random password
+   - Or enter a custom password for the manager
+
+5. **➕ Add Multiple Branches**
+   - Use the "+" tab to add additional branches
+   - Each branch gets its own configuration tab
+   - You can delete branches if needed (minimum 1 required)
+
+### ✅ Finalizing Company Creation
+
+1. **👀 Review Configuration**
+   - Ensure all branch details are complete
+   - Verify department assignments
+   - Confirm manager information (if provided)
+
+2. **🚀 Create Company**
+   - Click "Create Company" to finalize
+   - The system will:
+     - Create your company profile
+     - Set up branch locations
+     - Configure departments
+     - Create manager accounts (if specified)
+     - Initialize warehouse structures
+
+   <!-- ![Company Creation Success](company-creation-success.png) -->
+
+   _Image: Success confirmation after company creation_
+
+3. **🎯 Post-Creation Redirect**
+   - You'll be redirected to your branch manager dashboard
+   - Your company and branches are now ready for use
+   - You can start adding inventory, team members, and configuring additional settings
+
+## 📦 What Gets Created
+
+When you complete company creation, Busiman automatically sets up:
+
+| **Component**               | **Description**                                  |
+| --------------------------- | ------------------------------------------------ |
+| **🏢 Company Profile**      | Your business information and settings           |
+| **🏪 Branch Locations**     | Physical or operational locations                |
+| **👥 Department Structure** | Organizational departments across branches       |
+| **👤 Manager Accounts**     | User accounts for branch managers (if specified) |
+| **📦 Warehouse Setup**      | Inventory management structure for each branch   |
+| **🔐 Default Permissions**  | Basic access controls based on your selections   |
+
+## 🎯 Next Steps After Onboarding
+
+Once your company is set up, you can:
+
+1. **👥 Add Team Members**: Invite employees and set their roles
+2. **📦 Configure Inventory**: Add products and set up stock tracking
+3. **💳 Set Up Payment Methods**: Configure payment processing
+4. **⚙️ Customize Settings**: Adjust business rules and preferences
+5. **📊 Import Data**: Bulk import existing inventory or customer data
+
+## 🔧 Troubleshooting
+
+### 🚨 Common Issues
+
+#### 🔵 Google OAuth Issues
+
+- Ensure you're using a valid Google account
+- Check that you've granted the necessary permissions
+- Try clearing your browser cache and cookies
+- Contact support if Google OAuth consistently fails
+
+#### 🏢 Company Creation Errors
+
+- Ensure all required fields are filled
+- Check that branch names are unique
+- Verify email formats are correct
+
+#### 🚪 Login Issues
+
+- Ensure you're using a valid Google account
+- Check that you've granted the necessary permissions
+- Try clearing your browser cache and cookies
+- Contact support if Google OAuth consistently fails
+
+### 💬 Support
+
+If you encounter any issues during onboarding:
+
+- 📧 Contact support at [help@busiman.in](mailto:help@busiman.in)
+- 💬 Use the in-app help chat for immediate assistance
+
+## 🎉 Congratulations!
+
+You've successfully completed the Busiman onboarding process. Your business management platform is now ready to use.

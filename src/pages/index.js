@@ -1,6 +1,6 @@
-import {Redirect} from '@docusaurus/router';
-import React from 'react';
+import { Redirect } from "@docusaurus/router";
+import React from "react";
 
 export default function Home() {
-  return <Redirect to="/intro" />;
+  return <Redirect to="/introduction/overview" />;
 }
