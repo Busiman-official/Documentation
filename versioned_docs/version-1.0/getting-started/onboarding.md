@@ -13,11 +13,17 @@ Welcome to Busiman! This comprehensive guide walks you through the complete onbo
 1. **🌐 Visit the Registration Page**
    - Navigate to [Busiman Registration](https://busiman.in/auth/register)
 
-   <!-- ![Registration Page Layout](registration-page.png) -->
+   ![Registration Page Layout](/img/dashboard/register.gif)
 
-   _Image: Busiman registration page_
+   _GIF: Busiman registration page walkthrough_
 
 2. **🔵 Google OAuth Registration**
+   - Click "Sign Up with Google" for registration
+   - Grant permissions to access your Google account
+   - Your account will be created using your Google profile information
+   - You'll be automatically logged in and redirected to the dashboard
+
+3. **🔵 Google OAuth Registration**
    - Click "Sign Up with Google" for registration
    - Grant permissions to access your Google account
    - Your account will be created using your Google profile information
@@ -30,9 +36,9 @@ Welcome to Busiman! This comprehensive guide walks you through the complete onbo
 1. **🌐 Access the Login Page**
    - Visit [Busiman Login](https://busiman.in/auth/login)
 
-   <!-- ![Login Page](login-page.png) -->
+   ![Login Page](/img/dashboard/login.gif)
 
-   _Image: Busiman login page_
+   _GIF: Busiman login page walkthrough_
 
 2. **🔵 Google OAuth Login**
    - Click "Sign In with Google" for quick access
@@ -49,9 +55,9 @@ After successful login, you'll be redirected to the main dashboard. To set up yo
    - After login, you'll be redirected to the main dashboard
    - To create your company, visit: [Company Creation](https://busiman.in/dashboard/company/create-new)
 
-   <!-- ![Company Creation Step 1](company-creation-step1.png) -->
+   ![Company Creation Step 1](/img/dashboard/company-create-step-1.gif)
 
-   _Image: Company information form_
+   _GIF: Company creation form walkthrough_
 
 2. **📝 Enter Basic Company Details**
    - **🏷️ Company Name**: Your business's legal or operating name
@@ -60,10 +66,6 @@ After successful login, you'll be redirected to the main dashboard. To set up yo
      - 10-99 employees (medium business)
      - 100-999 employees (large business)
      - > 1000 employees (enterprise)
-
-   <!-- ![Company Size Selection](company-size-selection.png) -->
-
-   _Image: Company size selection with icons_
 
 3. **🏭 Select Industry**
    - Choose from predefined industries or enter a custom one:
@@ -77,10 +79,6 @@ After successful login, you'll be redirected to the main dashboard. To set up yo
    - You can choose from 1 to 4 branches initially
    - Additional branches can be added later
 
-   <!-- ![Branch Count Selection](branch-count-selection.png) -->
-
-   _Image: Branch count selection buttons_
-
 5. **➡️ Continue to Branch Setup**
    - Click "Continue to Branches" to proceed
    - This validates your company information before moving forward
@@ -90,9 +88,9 @@ After successful login, you'll be redirected to the main dashboard. To set up yo
 1. **📊 Branch Setup Overview**
    - You'll see tabs for each branch you specified
 
-   <!-- ![Branch Configuration](branch-configuration.png) -->
+   ![Branch Configuration](/img/dashboard/company-create-step-2.gif)
 
-   _Image: Branch configuration with tabbed interface_
+   _GIF: Branch configuration tabbed interface walkthrough_
 
 2. **⚙️ Configure Each Branch**
    For each branch, provide:
@@ -102,20 +100,12 @@ After successful login, you'll be redirected to the main dashboard. To set up yo
      - Select multiple departments that operate in this branch
      - Common options include: Sales, Marketing, HR, Finance, Operations, IT, etc.
 
-   <!-- ![Branch Details Form](branch-details-form.png) -->
-
-   _Image: Branch details form with departments selection_
-
 3. **👨‍💼 Branch Manager (Optional)**
    - **👤 Manager Name**: Full name of the branch manager
    - **💼 Position**: Job title (e.g., "Branch Manager", "Store Manager")
    - **📧 Email**: Manager's email address
    - **📱 Phone**: Manager's contact number
    - **🔒 Password**: System-generated or custom password
-
-   <!-- ![Manager Details Section](manager-details.png) -->
-
-   _Image: Optional branch manager configuration_
 
 4. **🔐 Password Generation**
    - Click "Generate" to create a secure random password
@@ -141,10 +131,6 @@ After successful login, you'll be redirected to the main dashboard. To set up yo
      - Configure departments
      - Create manager accounts (if specified)
      - Initialize warehouse structures
-
-   <!-- ![Company Creation Success](company-creation-success.png) -->
-
-   _Image: Success confirmation after company creation_
 
 3. **🎯 Post-Creation Redirect**
    - You'll be redirected to your branch manager dashboard
@@ -205,6 +191,6 @@ If you encounter any issues during onboarding:
 - 📧 Contact support at [help@busiman.in](mailto:help@busiman.in)
 - 💬 Use the in-app help chat for immediate assistance
 
-## 🎉 Congratulations!
+## 🎉 Congratulations
 
 You've successfully completed the Busiman onboarding process. Your business management platform is now ready to use.
