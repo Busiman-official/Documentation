@@ -58,61 +58,16 @@ This flexible structure lets you mirror your real business exactly, whether you 
 
 ## 📊 **Business Features**
 
-### **🏪 Multi-Branch Operations**
-
-- Manage unlimited branches and warehouses
-- Transfer inventory between locations
-- Branch-specific reports and analytics
-- Real-time performance monitoring
-
-### **📦 Smart Inventory**
-
-- Track stock across all locations
-- Automatic low-stock alerts
-- Barcode scanning
-- Batch and expiry tracking
-
-### **👥 Team Management**
-
-- Add unlimited team members
-- Role-based access control
-- Employee performance tracking
-- Secure login for everyone
-
-### **💰 Payments & Billing**
-
-- UPI, cards, and cash payments
-- Automatic invoicing
-- Transaction history
-- Razorpay integration
-
-### **🏭 Manufacturing**
-
-- Bill of Materials (BOM)
-- Production planning
-- Raw material tracking
-- Quality control
-
-### **📋 Service Management**
-
-- Service requests and tracking
-- Technician assignments
-- Customer feedback
-- SLA monitoring
-
-### **📞 Customer Database**
-
-- Customer and supplier contacts
-- Interaction history
-- Relationship management
-- Communication tracking
-
-### **📈 Reports & Analytics**
-
-- Real-time dashboards
-- Custom reports
-- Financial summaries
-- Export to PDF/Excel
+| Feature                    | Description                                                                        |
+| -------------------------- | ---------------------------------------------------------------------------------- |
+| **🏪 Multi-Branch**        | Unlimited branches, inter-branch transfers, location-specific analytics            |
+| **📦 Smart Inventory**     | Real-time stock tracking, low-stock alerts, barcode scanning, expiry management    |
+| **👥 Team Management**     | Unlimited users, role-based permissions, performance tracking, secure access       |
+| **💰 Payments & Billing**  | UPI/cards/cash payments, auto-invoicing, transaction history, Razorpay integration |
+| **🏭 Manufacturing**       | BOM management, production planning, raw material tracking, quality control        |
+| **📋 Service Management**  | Service requests, technician assignments, customer feedback, SLA monitoring        |
+| **📞 Customer Database**   | Contact management, interaction history, relationship tracking, communication logs |
+| **📈 Reports & Analytics** | Real-time dashboards, custom reports, financial summaries, PDF/Excel export        |
 
 ## 🚀 **Get Started in Minutes**
 
