@@ -3,7 +3,7 @@ sidebar_position: 3
 toc_max_heading_level: 2
 ---
 
-# 🏠 Home Dashboard Guide
+# 🏠 Dashboard Guide
 
 After completing onboarding, you'll be automatically redirected to your **Home Dashboard**—the central hub for managing your entire business. This comprehensive guide will help you master all dashboard features and navigation.
 
@@ -21,9 +21,9 @@ Your dashboard displays business modules as colorful, interactive tiles arranged
 
 Quick overview of the dashboard layout and available modules
 
-## 🧭 Navigation & Controls
+## 🏠 Dashboard Features
 
-### Top Navigation Bar
+### Navigation & Controls
 
 The top navigation bar contains three main controls:
 
@@ -61,9 +61,7 @@ Managing branches and switching contexts
   - Set current company/branch as default
   - Access advanced settings page
 
-## 📱 Dashboard Modules
-
-### Module Overview
+### Dashboard Modules
 
 Your dashboard displays all available business modules as interactive tiles. Click any tile to instantly access that feature.
 
@@ -71,7 +69,7 @@ Your dashboard displays all available business modules as interactive tiles. Cli
 
 Exploring available dashboard modules and their functions
 
-### Core Business Modules
+#### Core Business Modules
 
 | Module                | Description                                              | Icon            | Access    |
 | --------------------- | -------------------------------------------------------- | --------------- | --------- |
@@ -82,7 +80,7 @@ Exploring available dashboard modules and their functions
 | **📇 Contacts**       | Manage customers, suppliers, and business contacts       | Orange contacts | All users |
 | **💸 Transactions**   | View and track all business transactions                 | Yellow arrows   | All users |
 
-### Specialized Modules
+#### Specialized Modules
 
 | Module                 | Description                                     | Icon        | Access      |
 | ---------------------- | ----------------------------------------------- | ----------- | ----------- |
@@ -92,9 +90,9 @@ Exploring available dashboard modules and their functions
 
 How different user roles see different modules
 
-## 🎨 Dashboard Customization
+### Dashboard Customization
 
-### 📂 Creating Folders
+#### 📂 Creating Folders
 
 Organize your modules by grouping related functionality:
 
@@ -107,7 +105,7 @@ Organize your modules by grouping related functionality:
 
 How to create and organize folders on your dashboard
 
-### 🔄 Rearranging Modules
+#### 🔄 Rearranging Modules
 
 Customize your dashboard layout to match your workflow:
 
@@ -120,7 +118,7 @@ Customize your dashboard layout to match your workflow:
 
 Dragging and dropping modules to customize your layout
 
-### 💾 Automatic Saving
+#### 💾 Automatic Saving
 
 Your dashboard layout is **automatically saved to your browser's localStorage** and will be exactly the same next time you log in. No need to worry about losing your preferred organization!
 
@@ -132,9 +130,11 @@ How your custom layout is saved and restored
 Dashboard customizations are **saved instantly** to your browser's localStorage. Your personalized layout will be restored exactly as you left it on your next login.
 :::
 
-## 👥 User Role Differences
+## ⚙️ Management & Settings
 
-### 👷 Worker Access
+### User Role Differences
+
+#### 👷 Worker Access
 
 Workers see only relevant modules:
 
@@ -142,7 +142,7 @@ Workers see only relevant modules:
 - Admin Inventory
 - Products, Contacts, Transactions
 
-### 👔 Manager Access
+#### 👔 Manager Access
 
 Managers see all modules and can:
 
@@ -150,7 +150,7 @@ Managers see all modules and can:
 - Manage all team members
 - Access full company settings
 
-### 🏆 Executive Access
+#### 🏆 Executive Access
 
 Executives have access to:
 
@@ -158,9 +158,9 @@ Executives have access to:
 - Company-wide analytics
 - Advanced reporting features
 
-## 🏗️ Branch Management
+### Branch Management
 
-### ➕ Creating New Branches
+#### ➕ Creating New Branches
 
 To add a new branch to your company:
 
@@ -176,7 +176,7 @@ To add a new branch to your company:
 
 Step-by-step process for adding new branches
 
-### ✏️ Editing Branches
+#### ✏️ Editing Branches
 
 To modify an existing branch:
 
@@ -189,7 +189,7 @@ To modify an existing branch:
 
 How to modify existing branch information
 
-### 🗑️ Deleting Branches
+#### 🗑️ Deleting Branches
 
 To remove a branch:
 
@@ -203,9 +203,9 @@ To remove a branch:
 
 Safe branch deletion with confirmation
 
-## ⚙️ Settings & Defaults
+### Settings & Defaults
 
-### 🔧 Setting Default Company & Branch
+#### 🔧 Setting Default Company & Branch
 
 To set your current company and branch as defaults for future logins:
 
@@ -217,7 +217,7 @@ To set your current company and branch as defaults for future logins:
 
 How to set your preferred company and branch as defaults
 
-### 🛠️ Advanced Settings
+#### 🛠️ Advanced Settings
 
 For more detailed configuration:
 
@@ -233,7 +233,7 @@ For more detailed configuration:
 
 Accessing detailed configuration options
 
-## 🚀 Getting Started from Dashboard
+## 🚀 Getting Started & Videos
 
 ### First Time Setup
 
@@ -250,7 +250,7 @@ Accessing detailed configuration options
 3. **Monitor transactions** for business performance
 4. **Manage contacts** for customer relationships
 
-## 🎥 Dashboard Walkthrough Videos
+### Dashboard Walkthrough Videos
 
 Throughout this guide, you'll find focused walkthrough videos for specific features:
 
@@ -273,22 +273,6 @@ Each video demonstrates one specific aspect of the dashboard, making it easier t
 - **🔄 Switching**: Use company/branch dropdowns to quickly switch between business units
 - **⚡ Speed**: Dashboard loads instantly - no waiting for complex interfaces
 
-:::tip Power User Tips
-**Place frequently used modules in the top-left** for instant access. Use **keyboard navigation** (arrow keys + Enter) to work faster without reaching for the mouse.
+:::info Need Help?
+Our support team is available **24/7** in Hindi and English. Don't hesitate to reach out if you encounter any issues during setup.
 :::
-
-## 🆘 Need Help?
-
-- **In-app chat**: Get instant support from our team
-- **Help button**: Available in every module
-- **Email support**: [help@busiman.in](mailto:help@busiman.in)
-
-:::info 24/7 Support Available
-Our support team is available **around the clock** in Hindi and English. Use the **in-app chat** for instant help or email us at [help@busiman.in](mailto:help@busiman.in).
-:::
-
----
-
-**Ready to explore?** Your dashboard is waiting - click any module to start managing your business!
-
-**Next: [Branch Dashboard Overview →](../introduction/branch-dashboard.md)**

@@ -100,10 +100,6 @@ Busiman was **built for Indian businesses, by understanding Indian challenges**.
 - **Zero Data Breaches** with enterprise security
 - **99.9% Uptime** with reliable infrastructure
 
-:::info Real Results from Real Businesses
-Busiman has helped **10,000+ businesses** save **₹127K annually** while reducing stockouts by **73%** and cutting reporting time by **89%**.
-:::
-
 ## ❓ Why Choose Busiman
 
 **Unlike foreign ERP systems like Odoo, SAP, and Oracle that overwhelm Indian businesses with complex interfaces and irrelevant features, Busiman delivers India-specific optimizations, superior user experience, and enterprise-grade capabilities that actually work for Indian businesses - all at zero cost.**

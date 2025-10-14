@@ -191,13 +191,6 @@ Once your company is set up, you can:
 - Try clearing your browser cache and cookies
 - Contact support if Google OAuth consistently fails
 
-### 💬 Support
-
-If you encounter any issues during onboarding:
-
-- 📧 Contact support at [help@busiman.in](mailto:help@busiman.in)
-- 💬 Use the in-app help chat for immediate assistance
-
 :::info Need Help?
 Our support team is available **24/7** in Hindi and English. Don't hesitate to reach out if you encounter any issues during setup.
 :::
