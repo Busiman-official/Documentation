@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+toc_max_heading_level: 2
 ---
 
 # 🚀 Onboarding Guide
@@ -23,11 +24,9 @@ Welcome to Busiman! This comprehensive guide walks you through the complete onbo
    - Your account will be created using your Google profile information
    - You'll be automatically logged in and redirected to the dashboard
 
-3. **🔵 Google OAuth Registration**
-   - Click "Sign Up with Google" for registration
-   - Grant permissions to access your Google account
-   - Your account will be created using your Google profile information
-   - You'll be automatically logged in and redirected to the dashboard
+:::tip Google Account Requirements
+Make sure you're using a **valid Google account** with proper permissions. Busiman uses Google OAuth for secure, passwordless authentication.
+:::
 
 ## 🔑 Account Login
 
@@ -111,6 +110,10 @@ After successful login, you'll be redirected to the main dashboard. To set up yo
    - Click "Generate" to create a secure random password
    - Or enter a custom password for the manager
 
+:::tip Password Security
+Use the **"Generate" button** for secure, random passwords. Custom passwords should be at least 8 characters with a mix of letters, numbers, and symbols.
+:::
+
 5. **➕ Add Multiple Branches**
    - Use the "+" tab to add additional branches
    - Each branch gets its own configuration tab
@@ -136,6 +139,10 @@ After successful login, you'll be redirected to the main dashboard. To set up yo
    - You'll be redirected to your branch manager dashboard
    - Your company and branches are now ready for use
    - You can start adding inventory, team members, and configuring additional settings
+
+:::success Company Setup Complete!
+Your company has been successfully created with all branches and departments configured. You're now ready to start managing your business operations.
+:::
 
 ## 📦 What Gets Created
 
@@ -190,6 +197,10 @@ If you encounter any issues during onboarding:
 
 - 📧 Contact support at [help@busiman.in](mailto:help@busiman.in)
 - 💬 Use the in-app help chat for immediate assistance
+
+:::info Need Help?
+Our support team is available **24/7** in Hindi and English. Don't hesitate to reach out if you encounter any issues during setup.
+:::
 
 ## 🎉 Congratulations
 

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+toc_max_heading_level: 2
 ---
 
 # Comparison With Others
@@ -22,11 +23,17 @@ While SAP, Oracle, Microsoft Dynamics, Tally, QuickBooks, and Zoho charge **₹2
 | **Modern UI**             | ❌                   | ❌                  | ❌                     | ❌            | ✅          |
 | **Learning Curve**        | Very High            | High                | High                   | Medium        | **Low**     |
 
-**💰 Save ₹10,800+ annually** while getting superior India-specific features.
+:::success Save ₹10,800+ Annually
+While competitors charge **₹25,000-₹55,000 annually**, Busiman provides **everything completely free** with superior India-specific features.
+:::
 
 ## ❌ Why Foreign ERP Systems Fail
 
 Indian businesses often find SAP, Oracle, Microsoft Dynamics, and Odoo **overwhelming and unsuitable** for local needs.
+
+:::danger Foreign ERP Challenges
+**Complex interfaces**, **generic workflows**, and **limited GST support** make foreign ERPs unsuitable for Indian SMEs. They require expensive customizations and lack UPI integration.
+:::
 
 ### What Indian Businesses Hate
 
@@ -93,8 +100,16 @@ Busiman was **built for Indian businesses, by understanding Indian challenges**.
 - **Zero Data Breaches** with enterprise security
 - **99.9% Uptime** with reliable infrastructure
 
+:::info Real Results from Real Businesses
+Busiman has helped **10,000+ businesses** save **₹127K annually** while reducing stockouts by **73%** and cutting reporting time by **89%**.
+:::
+
 ## ❓ Why Choose Busiman
 
 **Unlike foreign ERP systems like Odoo, SAP, and Oracle that overwhelm Indian businesses with complex interfaces and irrelevant features, Busiman delivers India-specific optimizations, superior user experience, and enterprise-grade capabilities that actually work for Indian businesses - all at zero cost.**
 
-**Ready to save ₹10,800+ annually?** [Get started with Busiman today](https://busiman.in/auth/login)
+:::success Ready to Save ₹10,800+ Annually?
+**Get started with Busiman today** - everything is completely free with superior India-specific features that actually work for your business.
+
+[Sign up now →](https://busiman.in/auth/login)
+:::

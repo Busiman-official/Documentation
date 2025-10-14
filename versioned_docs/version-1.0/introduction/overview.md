@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+toc_max_heading_level: 2
 ---
 
 # Busiman Overview
@@ -56,6 +57,12 @@ This flexible structure lets you mirror your real business exactly, whether you 
 | **Company Settings**     | ❌            | ❌              | ✅               |
 | **Financial Reports**    | ❌            | ❌              | ✅               |
 
+:::info Role Hierarchy
+**Workers → Managers → Executives**
+
+Each level builds upon the previous one, with higher roles gaining additional permissions and responsibilities.
+:::
+
 ## 📊 **Business Features**
 
 | Feature                    | Description                                                                        |
@@ -92,3 +99,9 @@ This flexible structure lets you mirror your real business exactly, whether you 
 - **🕒 24/7 support** - Help in Hindi and English
 - **📊 Smart insights** - Make better decisions
 - **🎯 Simple to use** - No training required
+
+:::success Ready to Scale your Business
+**Get started with Busiman today** - everything is completely free with superior India-specific features that actually work for your business.
+
+[Sign up now →](https://busiman.in/auth/login)
+:::
