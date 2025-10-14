@@ -3,7 +3,7 @@ sidebar_position: 3
 toc_max_heading_level: 2
 ---
 
-# 🏠 Dashboard Guide
+# Dashboard Guide
 
 After completing onboarding, you'll be automatically redirected to your **Home Dashboard**—the central hub for managing your entire business. This comprehensive guide will help you master all dashboard features and navigation.
 

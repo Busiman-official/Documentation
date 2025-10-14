@@ -3,7 +3,7 @@ sidebar_position: 2
 toc_max_heading_level: 2
 ---
 
-# 🚀 Onboarding Guide
+# Onboarding Guide
 
 Welcome to Busiman! This comprehensive guide walks you through the complete onboarding process, from creating your account to setting up your first company and branches.
 
