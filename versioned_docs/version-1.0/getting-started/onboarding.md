@@ -16,7 +16,7 @@ Welcome to Busiman! This comprehensive guide walks you through the complete onbo
 
    ![Registration Page Layout](/img/dashboard/register.gif)
 
-   _GIF: Busiman registration page walkthrough_
+   > Busiman registration page walkthrough
 
 2. **🔵 Google OAuth Registration**
    - Click "Sign Up with Google" for registration
@@ -35,9 +35,9 @@ Make sure you're using a **valid Google account** with proper permissions. Busim
 1. **🌐 Access the Login Page**
    - Visit [Busiman Login](https://busiman.in/auth/login)
 
-   ![Login Page](/img/dashboard/login.gif)
+   <!-- ![Login Page](/img/dashboard/login.gif) -->
 
-   _GIF: Busiman login page walkthrough_
+   > Busiman login page walkthrough
 
 2. **🔵 Google OAuth Login**
    - Click "Sign In with Google" for quick access
@@ -56,7 +56,7 @@ After successful login, you'll be redirected to the main dashboard. To set up yo
 
    ![Company Creation Step 1](/img/dashboard/company-create-step-1.gif)
 
-   _GIF: Company creation form walkthrough_
+   > Company creation form walkthrough
 
 2. **📝 Enter Basic Company Details**
    - **🏷️ Company Name**: Your business's legal or operating name
@@ -89,7 +89,7 @@ After successful login, you'll be redirected to the main dashboard. To set up yo
 
    ![Branch Configuration](/img/dashboard/company-create-step-2.gif)
 
-   _GIF: Branch configuration tabbed interface walkthrough_
+   > Branch configuration tabbed interface walkthrough
 
 2. **⚙️ Configure Each Branch**
    For each branch, provide:

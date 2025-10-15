@@ -60,6 +60,10 @@ Stores are sub-sections within your warehouses that help you organize inventory 
    - Or press **Ctrl+S** to save
    - Store appears immediately in the list
 
+<!-- ![Creating Store](/img/inventory/store-creation.gif) -->
+
+> Setting up a new store section within your warehouse
+
 ## 📊 **Managing Stores**
 
 ### Viewing Store List
@@ -83,6 +87,10 @@ The stores list shows:
 3. **Save Changes**
    - Click **"Update Store"** to save changes
    - Changes apply immediately
+
+<!-- ![Editing Store](/img/inventory/store-editing.gif) -->
+
+> Modifying store information and location details
 
 ### Store Actions
 

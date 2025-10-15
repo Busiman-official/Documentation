@@ -57,7 +57,7 @@ Your products are the foundation of your business. Without products, you can't t
 
 <!-- ![Adding First Product](/img/quickstart/add-first-product.gif) -->
 
-Adding your first product to establish your catalog
+> Adding your first product to establish your catalog
 
 ### Bulk Product Import
 
@@ -123,7 +123,7 @@ Before inviting team members, understand the role hierarchy:
 
 <!-- ![Inviting Team Members](/img/quickstart/invite-team-member.gif) -->
 
-Inviting your first team member and setting their role
+> Inviting your first team member and setting their role
 
 ### Bulk Team Import
 
@@ -171,7 +171,7 @@ Set up your customer and supplier database for smooth business relationships.
 
 <!-- ![Adding Customer Contacts](/img/quickstart/add-customer.gif) -->
 
-Adding your first customer contact
+> Adding your first customer contact
 
 ## ✅ Step 4: Verify Your Setup
 

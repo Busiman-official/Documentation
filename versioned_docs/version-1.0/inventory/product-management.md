@@ -77,6 +77,10 @@ Products are the individual items you sell, use, or track in your inventory. Eac
    - Or press **Ctrl+S** to save
    - Product appears immediately in your inventory
 
+<!-- ![Creating Product](/img/inventory/product-creation.gif) -->
+
+> Adding a new product with all specifications and initial stock
+
 ## 📊 **Managing Products**
 
 ### Product List Overview
@@ -128,6 +132,10 @@ The products page displays:
    - Click **"Update Product"** to save
    - Changes reflect immediately in inventory
 
+<!-- ![Editing Product](/img/inventory/product-editing.gif) -->
+
+> Modifying product information and updating stock levels
+
 #### Transaction History
 
 - Click **"Transaction History"** action
@@ -169,6 +177,10 @@ Product groups help you organize related products into logical categories for be
    - Select products to include in the group
    - Products can belong to multiple groups
 
+<!-- ![Creating Product Group](/img/inventory/product-group-creation.gif) -->
+
+> Organizing products into logical categories for better management
+
 ### Managing Groups
 
 - **View Group Contents**: See all products in a group
@@ -203,6 +215,10 @@ Enable serial number tracking for:
    - Enter unique identifiers for each item
    - Associate with specific stock entries
    - Track movement history per serial number
+
+<!-- ![Setting Up Serial Numbers](/img/inventory/serial-number-setup.gif) -->
+
+> Enabling individual item tracking with unique serial numbers
 
 ### Serial Number Management
 

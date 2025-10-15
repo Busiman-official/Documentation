@@ -52,7 +52,7 @@ A warehouse in Busiman represents a physical storage location where you keep you
 
 <!-- ![Creating Warehouse](/img/inventory/warehouse-creation.gif) -->
 
-Creating your first warehouse with all required details
+> Creating your first warehouse with all required details
 
 ## 🏭 **Managing Multiple Warehouses**
 
@@ -83,7 +83,7 @@ For frequently used warehouses:
 
 <!-- ![Setting Default Warehouse](/img/inventory/default-warehouse.gif) -->
 
-Setting a default warehouse for quick access
+> Setting a default warehouse for quick access
 
 ## ✏️ **Editing Warehouse Information**
 
@@ -104,7 +104,7 @@ Setting a default warehouse for quick access
 
 <!-- ![Editing Warehouse](/img/inventory/warehouse-editing.gif) -->
 
-Updating warehouse information and business details
+> Updating warehouse information and business details
 
 ## 🗑️ **Deleting Warehouses**
 
@@ -134,7 +134,7 @@ Updating warehouse information and business details
 
 <!-- ![Deleting Warehouse](/img/inventory/warehouse-deletion.gif) -->
 
-Safe warehouse deletion with confirmation steps
+> Safe warehouse deletion with confirmation steps
 
 ## 🏪 **Store Organization (Optional)**
 
@@ -153,7 +153,7 @@ For detailed inventory organization:
 
 <!-- ![Enabling Stores](/img/inventory/stores-toggle.gif) -->
 
-Enabling the stores feature for detailed organization
+> Enabling the stores feature for detailed organization
 
 ### When to Use Stores
 

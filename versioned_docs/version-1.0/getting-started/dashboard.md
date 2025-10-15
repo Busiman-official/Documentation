@@ -19,7 +19,7 @@ Your dashboard displays business modules as colorful, interactive tiles arranged
 
 <!-- ![Dashboard First Look](/img/dashboard/dashboard-first-look.gif) -->
 
-Quick overview of the dashboard layout and available modules
+> Quick overview of the dashboard layout and available modules
 
 ## 🏠 Dashboard Features
 
@@ -38,7 +38,7 @@ The top navigation bar contains three main controls:
 
 <!-- ![Company Navigation](/img/dashboard/company-navigation.gif) -->
 
-Switching between companies and adding new ones
+> Switching between companies and adding new ones
 
 #### 🏪 Branch Selector
 
@@ -51,7 +51,7 @@ Switching between companies and adding new ones
 
 <!-- ![Branch Navigation](/img/dashboard/branch-navigation.gif) -->
 
-Managing branches and switching contexts
+> Managing branches and switching contexts
 
 #### ⚙️ Settings Menu
 
@@ -67,7 +67,7 @@ Your dashboard displays all available business modules as interactive tiles. Cli
 
 <!-- ![Module Overview](/img/dashboard/module-overview.gif) -->
 
-Exploring available dashboard modules and their functions
+> Exploring available dashboard modules and their functions
 
 #### Core Business Modules
 
@@ -88,7 +88,7 @@ Exploring available dashboard modules and their functions
 
 <!-- ![Module Access](/img/dashboard/module-access.gif) -->
 
-How different user roles see different modules
+> How different user roles see different modules
 
 ### Dashboard Customization
 
@@ -103,7 +103,7 @@ Organize your modules by grouping related functionality:
 
 <!-- ![Creating Folders](/img/dashboard/creating-folders.gif) -->
 
-How to create and organize folders on your dashboard
+> How to create and organize folders on your dashboard
 
 #### 🔄 Rearranging Modules
 
@@ -116,7 +116,7 @@ Customize your dashboard layout to match your workflow:
 
 <!-- ![Rearranging Modules](/img/dashboard/rearranging-modules.gif) -->
 
-Dragging and dropping modules to customize your layout
+> Dragging and dropping modules to customize your layout
 
 #### 💾 Automatic Saving
 
@@ -124,7 +124,7 @@ Your dashboard layout is **automatically saved to your browser's localStorage** 
 
 <!-- ![Layout Persistence](/img/dashboard/layout-persistence.gif) -->
 
-How your custom layout is saved and restored
+> How your custom layout is saved and restored
 
 :::info Your Layout is Automatically Saved
 Dashboard customizations are **saved instantly** to your browser's localStorage. Your personalized layout will be restored exactly as you left it on your next login.
@@ -174,7 +174,7 @@ To add a new branch to your company:
 
 <!-- ![Creating Branches](/img/dashboard/creating-branches.gif) -->
 
-Step-by-step process for adding new branches
+> Step-by-step process for adding new branches
 
 #### ✏️ Editing Branches
 
@@ -187,7 +187,7 @@ To modify an existing branch:
 
 <!-- ![Editing Branches](/img/dashboard/editing-branches.gif) -->
 
-How to modify existing branch information
+> How to modify existing branch information
 
 #### 🗑️ Deleting Branches
 
@@ -201,7 +201,7 @@ To remove a branch:
 
 <!-- ![Deleting Branches](/img/dashboard/deleting-branches.gif) -->
 
-Safe branch deletion with confirmation
+> Safe branch deletion with confirmation
 
 ### Settings & Defaults
 
@@ -215,7 +215,7 @@ To set your current company and branch as defaults for future logins:
 
 <!-- ![Setting Defaults](/img/dashboard/setting-defaults.gif) -->
 
-How to set your preferred company and branch as defaults
+> How to set your preferred company and branch as defaults
 
 #### 🛠️ Advanced Settings
 
@@ -231,7 +231,7 @@ For more detailed configuration:
 
 <!-- ![Advanced Settings](/img/dashboard/advanced-settings.gif) -->
 
-Accessing detailed configuration options
+> Accessing detailed configuration options
 
 ## 🚀 Getting Started & Videos
 

@@ -82,6 +82,10 @@ flowchart LR
 3. **As Needed**: Handle replacements for defective items or internal transfers
 4. **Evening**: Review daily transactions and prepare for next day
 
+<!-- ![Daily Inventory Workflow](/img/inventory/daily-workflow.gif) -->
+
+> Complete daily inventory operations from receiving to issuing stock
+
 ## 🚀 **Getting Started with Inventory**
 
 ### Prerequisites
@@ -104,6 +108,10 @@ flowchart LR
 - [ ] Products added
 - [ ] Groups organized
 - [ ] First stock transfer completed
+
+<!-- ![Inventory Setup Process](/img/inventory/setup-process.gif) -->
+
+> Step-by-step inventory system setup from warehouse creation to first transfer
 
 ## 💡 **Pro Tips**
 
