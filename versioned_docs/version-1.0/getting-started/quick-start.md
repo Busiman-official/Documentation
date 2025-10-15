@@ -3,7 +3,7 @@ sidebar_position: 4
 toc_max_heading_level: 2
 ---
 
-# Quick Start Guide
+# Quick Start
 
 After mastering the dashboard, it's time to set up your business data and get Busiman working for you. This guide walks through the essential first steps every business needs to complete.
 
