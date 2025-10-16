@@ -55,6 +55,27 @@ Access request management through your warehouse dashboard:
    - **By Product**: View individual products across requests
 3. **Status Filters**: Pending, Approved, Rejected, Completed
 
+### Advanced Search & Filtering
+
+Use comprehensive search filters to find specific requests:
+
+- **Product Name**: Search by product name or aliases
+- **Serial Numbers**: Find requests containing specific serial numbers
+- **Request Type**: Filter by cross-warehouse or check-out types
+- **Customer Name**: Search by customer for check-out requests
+- **Receiver Name**: Filter by receiving party
+- **Store Filters**: From Store and To Store locations
+- **Requested By**: Filter by the user who created the request
+- **Bill Number**: Search by associated bill/challan numbers
+
+### Request Status Indicators
+
+Visual cues help identify request types at a glance:
+
+- **Green Rows**: Check-in requests (products entering warehouse)
+- **Red Rows**: Check-out requests (products leaving warehouse)
+- **Status Colors**: Color-coded status badges (Pending, Approved, Rejected)
+
 ### Request Details
 
 Each cross-warehouse request displays comprehensive information:
@@ -65,6 +86,67 @@ Each cross-warehouse request displays comprehensive information:
 - **Products**: Detailed list with quantities and serial numbers
 - **Requester**: User who created the request
 - **Warehouses**: Sending and receiving warehouse information
+
+## 📋 **Detailed Request View**
+
+### Opening Request Details
+
+Click "Open Request Details" from any request row to view the complete transfer information:
+
+- **Cross-Warehouse Requests**: Navigate to detailed transfer view
+- **Request Information**: Complete sender/receiver details
+- **Product Breakdown**: Individual product quantities and serial numbers
+- **Approval Actions**: Accept or reject options for authorized users
+
+### Request Header Information
+
+The detailed view displays:
+
+- **Transfer Number**: Unique request identifier
+- **Status Badge**: Color-coded approval status
+- **Sender Details**: Sending warehouse and contact information
+- **Receiver Details**: Receiving warehouse and contact information
+- **Transaction Type**: Cross-warehouse transfer indicator
+- **Reference ID**: Service report number for tracking
+
+### Product Details Table
+
+View comprehensive product information:
+
+- **Product Name**: Item name with aliases
+- **Dispatched From**: Source store location
+- **Quantity**: Total quantity being transferred
+- **Serial Numbers**: Individual item tracking numbers
+- **Additional Fields**: Custom serial number metadata
+- **Allocation Store**: Destination store selection (for receivers)
+
+### Serial Number Management
+
+Handle complex serial number tracking:
+
+- **Primary Serial Numbers**: Main tracking identifiers
+- **Additional Metadata**: Custom fields for serial numbers (condition, warranty, etc.)
+- **Batch Processing**: Handle multiple serial numbers per product
+- **Validation**: Ensure serial number uniqueness and format compliance
+- **Conflict Resolution**: Manage duplicate serial number scenarios
+
+### Store Allocation (Receiver View)
+
+When approving requests, receivers can specify where products should be stored:
+
+- **Store Selection**: Choose from available stores in receiving warehouse
+- **Reserve Store Default**: Automatic allocation to Reserve Store
+- **Custom Allocation**: Select specific stores for different products
+- **Bulk Assignment**: Apply store selections to multiple products
+
+### Bill Date Management
+
+Set transaction dates for approved transfers:
+
+- **Bill Date Picker**: Select appropriate transaction date
+- **Automatic Defaults**: System suggests current date
+- **Historical Dating**: Back-date transactions when needed
+- **Compliance Tracking**: Maintain accurate transaction timelines
 
 ## ✅ **Accepting Requests**
 
@@ -107,22 +189,14 @@ flowchart LR
     A[Request Review] --> B{Approve?} --> C[No: Reject] --> D[Stock Remains]
 ```
 
-### Dashboard Metrics
+### Reserve Store Confirmation
 
-Track request performance with key metrics:
+When accepting cross-warehouse requests, a confirmation dialog appears:
 
-- **Pending Requests**: Requests awaiting approval
-- **Approved Today**: Requests processed today
-- **Rejected This Week**: Requests denied this week
-- **Average Processing Time**: Time from submission to approval
-
-### Transaction History
-
-View complete audit trail:
-
-- **Request History**: All requests created by user
-- **Approval History**: Requests reviewed and approved
-- **Transaction Logs**: Complete record of all stock movements
+- **Automatic Allocation**: Products are added to Reserve Store by default
+- **Confirmation Required**: User must confirm the allocation
+- **Bulk Processing**: All products in the request are processed together
+- **Cancellation Option**: Can cancel if Reserve Store allocation is not desired
 
 ## 🔐 **Permissions & Access Control**
 
@@ -184,6 +258,28 @@ View complete audit trail:
 - Review serial number details in the request
 - Coordinate with sending warehouse to resolve conflicts
 - Reject request with explanation if duplicates cannot be resolved
+
+#### Store Allocation Required
+
+**Problem**: Cannot accept request without selecting allocation stores
+
+**Solution**:
+
+- Ensure all products have store selections in receiver view
+- Check that selected stores exist and are accessible
+- Verify you have permissions to allocate to selected stores
+- Contact administrator if store access issues persist
+
+#### Bill Date Issues
+
+**Problem**: Unable to set or modify bill dates for approved requests
+
+**Solution**:
+
+- Bill date picker only available for pending requests
+- Once approved, bill dates cannot be modified
+- Set correct date before approving the request
+- Contact administrator for date corrections on approved requests
 
 ### Request Status Issues
 
